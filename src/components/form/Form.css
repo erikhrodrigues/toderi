@@ -10,3 +10,51 @@
     height: 30px;
     margin: 20px auto;
 }
+
+.todo-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.todo {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border: 1px solid #198dec;
+    border-radius: 10px;
+}
+
+.Urgency {
+    border: 1px solid red;
+}
+
+.todo p {
+    text-align: left;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.delete {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.delete:hover {
+    scale:1.5;
+    transition: 0.4s;
+}
+
+.edit {
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.edit:hover {
+    scale:1.5;
+    transition: 0.4s;
+}
